@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
- body {
-    background-image: url(fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-font-family: 'Fredoka One', cursive;
-font-size:larger;
+body {
+  background-image: url(fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Fredoka One", cursive;
+  font-size: larger;
 }
 
 #outrosmenus div {
@@ -25,7 +25,6 @@ font-size:larger;
   width: 100%;
   top: 0;
   right: 0;
-
 }
 
 .menu {
@@ -33,10 +32,10 @@ font-size:larger;
   background-color: sandybrown;
   margin: 14px;
   padding: 8px;
-  border-radius:23px;
+  border-radius: 23px;
 }
 
-#restomenus{
+#restomenus {
   display: flex;
   position: fixed;
   right: 1.4%;
@@ -50,17 +49,22 @@ div[data-menu="menu"] {
   padding: 14px;
 }
 
+div[data-menu="menu"]:hover,
+#outrosmenus:hover {
+  background-color: rgb(201, 123, 55);
+  cursor: pointer;
+}
+
 #outrosmenus span {
   display: flex;
 }
 
 #namemenu,
-#restomenus{
- 
-  display:none;
+#restomenus {
+  display: none;
 }
 
-#namemenu{
-    padding-right: 11px;
-    padding-left: 6px;
+#namemenu {
+  padding-right: 11px;
+  padding-left: 6px;
 }
