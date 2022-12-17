@@ -2,10 +2,9 @@ function trocardisplay(divs) {
   let nav = "#" + divs.html();
   $(nav).toggle("1s");
 }
-function fechar(){
-
+function fechar() {
   $(".navs").hide("1s");
-  }
+}
 
 $("#outrosmenus").click(() => {
   $("#namemenu").toggle("3s");
@@ -37,6 +36,6 @@ $("#creditos-btn").click(() => {
   trocardisplay($("#creditos-btn"));
 });
 
-$(".x").click(()=>{
+$(".x").click(() => {
   fechar();
-})
+});
