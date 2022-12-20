@@ -4,6 +4,11 @@
   --borda: 3px solid rgb(122, 32, 32);
   --bordacor: rgb(122, 32, 32);
   --fundo: sandybrown;
+  --sombra: 3px 2px rgba(0, 0, 0,0.6);
+}
+
+* {
+  list-style-type: none;
 }
 
 body {
@@ -17,7 +22,7 @@ body {
 
 h3 {
   font-size: large;
-  font-weight: 1;
+  font-weight: 1px;
 }
 h1 {
   font-size: 28px;
@@ -25,130 +30,13 @@ h1 {
 }
 
 img {
+  width: 4vw;
+  height: 8vh;
   border-radius: 8px;
-}
-#outrosmenus div {
-  width: 34px;
-  height: 4px;
-  border-radius: 105px;
-  background-color: rgb(0, 0, 0);
-  margin: 4px;
-}
-
-#men {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: 0.5s;
-  width: 100%;
-  top: 0;
-  right: 0;
-}
-
-.menu {
-  border: var(--borda);
-  background-color: var(--fundo);
-  margin: 14px;
-  padding: 8px;
-  border-radius: 23px;
-}
-
-#restomenus {
-  display: flex;
-  position: fixed;
-  right: 1.4%;
-  top: 70px;
-  flex-direction: column;
-}
-
-div[data-menu="menu"] {
-  text-align: center;
-  margin-right: 0;
-  padding: 14px;
-}
-
-div[data-menu="menu"]:hover,
-#outrosmenus:hover {
-  background-color: rgb(201, 123, 55);
-  cursor: pointer;
-}
-
-#outrosmenus span {
-  display: flex;
-}
-
-#namemenu,
-#restomenus {
-  display: none;
-}
-
-#namemenu {
-  padding-right: 11px;
-  padding-left: 6px;
-}
-
-.navs {
-  overflow-y: scroll;
-  width: 525px;
-  height: 465px;
-  display: flex;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: var(--borda);
-  background-color: var(--fundo);
-  display: none;
-  border-radius: 23px;
-}
-
-.x {
-  padding: 20px 10px;
-  border-radius: 23px;
-  font-size: 34px;
-  cursor: pointer;
-  color: var(--bordacor);
-}
-
-.navs h1 {
-  border-bottom: 3px solid black;
-}
-
-.header-navs {
-  padding: 1px 8px;
-  border-bottom: solid #eee;
-  display: flex;
-  justify-content: space-between;
-}
-
-#items {
-  padding-inline-start: 20px;
-  padding-inline-end: 0px;
-  display: grid;
-  row-gap: 15px;
-  letter-spacing: 1.5px;
-  grid-template-columns: auto auto auto auto;
-  list-style-type: none;
-}
-
-#items li {
-  width: 95px;
-  overflow-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding-top: 9px;
-  text-align: center;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-li img {
-  width: 50px;
-  height: 50px;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 0.3em;
 }
 
 ::-webkit-scrollbar-track {

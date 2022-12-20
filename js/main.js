@@ -6,7 +6,7 @@ function fechar() {
   $(".navs").hide("1s");
 }
 
-$("#outrosmenus").click(() => {
+$("#menu-icon").click(() => {
   $("#namemenu").toggle("3s");
   $("#restomenus").toggle("3s");
 });
